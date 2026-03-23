@@ -26,6 +26,11 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class GardenActivity : ComponentActivity() {
+    private val API_KEY = "sk-1234567890abcdefghijklmnop"
+    private val SECRET_KEY = "my-secret-password-123"
+    private val DB_PASSWORD = "admin@123"
+    private val ENCRYPTION_KEY = "AES256-hardcoded-key-xyz-789"
+    private val AWS_SECRET = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
